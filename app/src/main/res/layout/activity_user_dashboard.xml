@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context=".UserDashboard">
+
+
+    <TextView
+        android:id="@+id/tajuk"
+        android:layout_width="314dp"
+        android:layout_height="44dp"
+        android:gravity="center"
+        android:textColor="#2D3142"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.371" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="230dp"
+        android:layout_height="54dp"
+        android:gravity="center"
+        android:text="WELCOME"
+        android:textColor="#2D3142"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.128" />
+
+    <Button
+        android:id="@+id/btnSignOut"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="149dp"
+        android:layout_height="52dp"
+        android:backgroundTint="#29674C"
+        android:text="Sign Out"
+        android:textColor="#FFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.932"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+
+    <Button
+        android:id="@+id/btnuserprofile"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="254dp"
+        android:layout_height="65dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="User Profile"
+        android:textColor="#FFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.573"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.764" />
+
+    <Button
+        android:id="@+id/btnHospital"
+        android:layout_width="253dp"
+        android:layout_height="67dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="Nearby Hospital"
+        android:textColor="#FFFF"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.569"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.608" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
